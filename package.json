@@ -1,0 +1,29 @@
+{
+  "name": "images-ready",
+  "version": "1.0.0",
+  "description": "Wait for a set of images to be loaded.",
+  "main": "index.js",
+  "scripts": {
+    "test": "browserify test/index.js | testling",
+    "test-browser": "beefy test/index.js:test/build.js --debug=false"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ayamflow/images-ready"
+  },
+  "keywords": [
+    "image",
+    "wait",
+    "load"
+  ],
+  "author": "= <=>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ayamflow/images-ready/issues"
+  },
+  "homepage": "https://github.com/ayamflow/images-ready",
+  "devDependencies": {
+    "function-bind": "^1.0.2",
+    "tape": "^3.5.0"
+  }
+}
